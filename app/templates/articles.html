@@ -1,0 +1,18 @@
+{% extends 'base.html'%}
+<!-- Content block -->
+{% block content %}
+<div class="container">
+
+    <!-- Poster background -->
+    <div class="row">
+      {%for article in source_articles %}
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 movie-details">
+           <img src="{{ article.urlToImage }}" alt="image not displayed" class="img-responsive" >
+
+            <h5 class="overview">{{ article.description|truncate(100)}}</h5>
+            <p class="Date"> <b> Published on:{{ article.publishedAt }}</b> </p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
