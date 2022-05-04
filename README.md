@@ -21,7 +21,7 @@ API_KEY
 
 
  1 : Clone this repository using https://github.com/shalodin/newsIp.git, or downloading a ZIP file of the code.
- 2 : Open the terminal, go to the project directory and run the following commands: chmod +x run.py and ./start.sh respectively to launch the program.
+ 2 : Open the terminal, go to the project directory and run the following commands:./start.sh to launch the program.
  3: if downloaded as a zip file will need to be extracted to your preferred location and opened
 
 ## Technologies Used
